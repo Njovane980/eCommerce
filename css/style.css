@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    background-color: plum;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+/* Style the product list */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.featured-product {
+        width: 20%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        row-gap: 5px;
+      }
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    position: sticky;
+    padding: 0.5rem;
+
+}
+.contact-details {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+}
+
+.contact-details h2 {
+    font-size: 2rem;
+    color:blueviolet;
+}
+
+/* Style individual contact items */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.contact-item {
+    margin: 0 1rem;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+}
+
+.contact-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
